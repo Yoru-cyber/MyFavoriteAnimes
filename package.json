@@ -7,8 +7,9 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "build container": "docker build -t my-favourite-anime .",
-    "remove container": "docker rm -f my-favourite-anime"
+    "build container": "docker build -t myfavouriteanime:1.0 .",
+    "remove container": "docker rm -f myfavouriteanime:1.0",
+    "run-container": "docker run -d -p 8080:80 --name avocado myfavouriteanimes:1.0"
   },
   "private": true,
   "dependencies": {
