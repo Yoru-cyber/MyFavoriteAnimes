@@ -1,0 +1,8 @@
+# Angular project .dockerignore file
+.idea
+node_modules
+dist
+tmp
+.git
+.vscode
+out-tsc

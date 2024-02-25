@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "build container": "docker build -t my-favourite-anime .",
+    "remove container": "docker rm -f my-favourite-anime"
   },
   "private": true,
   "dependencies": {
