@@ -1,0 +1,36 @@
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 1% 1%;
+}
+a{
+    margin: 0 10px;
+    font-weight: 600;
+    font-size: large;
+    background-image: linear-gradient(to right, #fafafa, #fafafa);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    transition: font-size 0.5s linear;
+}
+a:hover{
+    font-size: 125%;
+    animation: gradientMove 0.8s linear both;
+}
+@keyframes gradientMove{
+    to{
+        background-position: 200% center;
+        background-image: linear-gradient(to right, #bd2452, #a5089d);
+    }
+}
+.active{
+    background-image: linear-gradient(to right, #6441a5, #2a0885);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+

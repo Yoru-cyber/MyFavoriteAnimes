@@ -1,0 +1,17 @@
+@if (AnimeResults$|async; as result) {
+    
+    @for (item of result.data; track $index) {
+        
+    <app-anime-card [anime]="item" />
+
+    }
+
+}
+<style>
+a{
+        text-decoration: none;
+        background-image: linear-gradient(to right, #6441a5, #2a0885);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+</style>

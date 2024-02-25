@@ -1,0 +1,33 @@
+<div class="card-grid">
+
+      <span style="grid-area: 1/ 2 /1 /2; justify-self: center; align-self: center;">
+ 
+    </span>
+
+      
+   
+ 
+
+    <span class="img-container">
+      <a href="{{ anime.url }}"
+         ><picture
+          ><source
+            srcset="{{anime.images.webp.large_image_url}}"
+            media="(orientation: landscape)" />
+          <source
+            srcset="{{anime.images.webp.image_url}}"
+            media="(max-width < 500px)" />
+          <img style="border-radius: 20px;"
+            src="{{ anime.images.webp.image_url }}"
+            alt="{{ anime.title }}" /></picture
+      ></a>
+    </span>
+    
+    <span class="text-container">
+      <a style="font-weight: bold; align-self: center;" href="{{ anime.url }}">{{ anime.title }}</a>
+      <p >{{ anime.score }}</p>
+        <p style="text-align: justify;">{{ anime.synopsis }}</p>
+    </span>
+      
+    
+</div>
