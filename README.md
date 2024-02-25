@@ -14,11 +14,11 @@ I'm a versatile Full Stack Developer with a passion for building engaging and ro
 
 My technical arsenal includes:
 
-Languages: JavaScript (including modern ES6+), C#, HTML, CSS
-Frameworks: Angular, React, Express, .NET
-Databases: SQL (various dialects)
-Additional Skills: Linux, Object-Relational Mapping (ORM), Git, Docker
-[![My Skills](https://skillicons.dev/icons?i=js,cs,mysql,postgresql,angular,react,docker,html,css,bootstrap,git)](https://skillicons.dev)
+- Languages: JavaScript (including modern ES6+), C#, HTML, CSS
+- Frameworks: Angular, React, Express, .NET
+- Databases: SQL (various dialects)
+- Additional Skills: Linux, Object-Relational Mapping (ORM), Git, Docker
+[![My Skills](https://skillicons.dev/icons?i=js,cs,mysql,postgresql,angular,react,docker,html,css,bootstrap,git,linux)](https://skillicons.dev)
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
