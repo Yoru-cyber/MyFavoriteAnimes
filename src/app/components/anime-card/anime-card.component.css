@@ -31,8 +31,8 @@ a{
     
 }
 img{
-    transform: size 0.5s linear;
+    transition: transform 0.5s ease;
 }
 img:hover{
-    size: 110%;
+    transform: scale(1.1);
 }
