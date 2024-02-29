@@ -19,7 +19,7 @@ a{
     transition: font-size 0.5s linear;
 }
 a:hover{
-    font-size: 125%;
+    font-size: 140%;
     animation: gradientMove 0.8s linear both;
 }
 @keyframes gradientMove{
