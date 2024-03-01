@@ -1,4 +1,4 @@
-# MyFavouriteAnime ![](https://skillicons.dev/icons?i=angular)
+# MyFavoriteAnime ![](https://skillicons.dev/icons?i=angular)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.1.
 This Angular project uses the <a href="https://angular.io/guide/router">Angular Router</a> to navigate
