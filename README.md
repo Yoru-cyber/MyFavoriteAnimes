@@ -8,17 +8,19 @@ This HTTP client is injected into the service that fetches the data and therefor
 <a href="https://angular.io/guide/dependency-injection"> Angular dependency injection</a> is used to inject the HTTP client service into the component. 
 The views are rendered using the <a href="https://angular.io/api/common/NgIf">NgIf</a> directive, now known as <a href="https://blog.angular-university.io/angular-if/">&#64;If</a>. 
 The <a href="https://github.com/angular/angular-cli">Angular CLI</a> is used to build and test this project.
+## What stack did i use?
+Currently this app is just a project on **Angular 17** [![](https://skillicons.dev/icons?i=angular)](https://skillicons.dev) wrapped on a **nginx reverse proxy** [![](https://skillicons.dev/icons?i=nginx)](https://skillicons.dev) which is on a container with **Docker**[![](https://skillicons.dev/icons?i=docker)](https://skillicons.dev).
 ## 🦇 About Me
 
 I'm a versatile Full Stack Developer with a passion for building engaging and robust web applications. I thrive in environments where I can leverage my expertise across both front-end and back-end development.
 
 My technical arsenal includes:
 
-- Languages: JavaScript (including modern ES6+), C#, HTML, CSS
+- Languages: Typescrit, C#, HTML, CSS, Javascript
 - Frameworks: Angular, React, Express, .NET
 - Databases: SQL (various dialects)
 - Additional Skills: Linux, Object-Relational Mapping (ORM), Git, Docker
-[![My Skills](https://skillicons.dev/icons?i=js,cs,mysql,postgresql,angular,react,docker,html,css,bootstrap,git,linux)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=ts,js,cs,mysql,postgresql,angular,react,docker,html,css,git,linux)](https://skillicons.dev)
 ## Screenshots
 ![Screenshot of Home](/Screenshots/Screenshot_3.png)
 ![Screenshot of Animes](/Screenshots/Screenshot_2.png)
